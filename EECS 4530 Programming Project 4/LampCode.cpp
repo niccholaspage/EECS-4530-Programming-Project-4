@@ -588,7 +588,7 @@ void reshapeWindow(GLFWwindow* window, int width, int height)
 */
 int main(int argCount, char* argValues[]) {
 	GLFWwindow* window = nullptr;
-	window = glfwStartUp(argCount, argValues, "Lighting Demo");
+	window = glfwStartUp(argCount, argValues, "Programming Project 4");
 	init("pointsource.vert", "directional.frag");
 	//	init("pointsource.vert", "pointsource.frag");
 	glfwSetWindowSizeCallback(window, reshapeWindow);
