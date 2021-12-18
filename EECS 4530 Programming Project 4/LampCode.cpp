@@ -16,6 +16,7 @@ using namespace std;
 
 /*
 * @author Nicholas Nassar
+* Date: 12/17/2021
 * Modified the sample to include movement of the right leg, and
 * moved object files to objs/ directory for better project organization.
 * This should be at the same level as the source code directory.
